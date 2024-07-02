@@ -1,0 +1,19 @@
+# Taps
+tap "homebrew/bundle"
+
+# Binaries
+brew "mas" # Mac App Store manager
+
+# Apps
+cask "boop"
+cask "docker"
+cask "fleet"
+cask "intellij-idea-ce"
+cask "maccy"
+cask "obsidian"
+cask "orbstack"
+cask "warp"
+
+# Mac App Store
+mas "1Password for Safari", id: 1569813296
+mas "Tailscale", id: 1475387142
