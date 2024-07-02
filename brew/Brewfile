@@ -1,19 +1,25 @@
 # Taps
 tap "homebrew/bundle"
+tap "homebrew/services"
 
 # Binaries
 brew "mas" # Mac App Store manager
 
 # Apps
 cask "boop"
+cask "dash"
 cask "docker"
+cask "firefox"
 cask "fleet"
 cask "intellij-idea-ce"
 cask "maccy"
 cask "obsidian"
-cask "orbstack"
+brew "ollama", restart_service: true
+cask "rectangle"
 cask "warp"
 
 # Mac App Store
 mas "1Password for Safari", id: 1569813296
+mas "Snippet", id: 1613020051
 mas "Tailscale", id: 1475387142
+mas "Xcode", id: 497799835
