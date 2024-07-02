@@ -18,6 +18,10 @@ brew "ollama", restart_service: true
 cask "rectangle"
 cask "warp"
 
+#oh-my-zsh
+brew "zsh-autocomplete"
+brew "zsh-autosuggestions"
+
 # Mac App Store
 mas "1Password for Safari", id: 1569813296
 mas "Snippet", id: 1613020051
