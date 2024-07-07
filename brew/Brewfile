@@ -7,6 +7,7 @@ brew "mas" # Mac App Store manager
 
 # Apps
 cask "boop"
+cask "bruno"
 cask "dash"
 cask "docker"
 cask "firefox"
@@ -15,6 +16,7 @@ cask "intellij-idea-ce"
 cask "maccy"
 cask "obsidian"
 brew "ollama", restart_service: true
+cask "ollamac"
 cask "rectangle"
 cask "warp"
 
@@ -24,6 +26,6 @@ brew "zsh-autosuggestions"
 
 # Mac App Store
 mas "1Password for Safari", id: 1569813296
+mas "Grocy Mobile", id: 1567803209
 mas "Snippet", id: 1613020051
 mas "Tailscale", id: 1475387142
-mas "Xcode", id: 497799835
