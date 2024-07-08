@@ -5,17 +5,20 @@ tap "homebrew/services"
 # Binaries
 brew "mas" # Mac App Store manager
 
+# Services
+brew "ollama", restart_service: true
+
 # Apps
 cask "boop"
-cask "bruno"
 cask "dash"
 cask "docker"
 cask "firefox"
 cask "fleet"
+cask "hoppscotch"
 cask "intellij-idea-ce"
 cask "maccy"
+cask "mongodb-compass"
 cask "obsidian"
-brew "ollama", restart_service: true
 cask "ollamac"
 cask "rectangle"
 cask "warp"
